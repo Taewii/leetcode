@@ -7,6 +7,7 @@ public class p13_roman_to_integer {
         System.out.println(romanToInt("MCMXCIV"));
     }
 
+    // @formatter:off
     static int romanToInt(String s) {
         char[] ch = s.toCharArray();
         int ans = 0;
@@ -32,4 +33,5 @@ public class p13_roman_to_integer {
 
         return ans;
     }
+    // @formatter:on
 }
